@@ -1,4 +1,5 @@
 // Slower Solution - O(n)
+// n is the size of num
 
 const addUpToSlower = (num) => {
 	let total = 0;
@@ -16,3 +17,4 @@ const addUpToFaster = (num) => {
 };
 
 console.log(addUpToFaster(3));
+
